@@ -318,7 +318,9 @@
       <div class="dropdown-item dropdown">
         <a href="#">Satzungen</a>
         <div class="dropdown-content">
-          <a onclick="showSection('kreissatzung')">Kreissatzung</a>
+            <a onclick="showSection('kreissatzung')">Kreissatzung</a>
+          <div class="dropdown-content">
+              <a onclick="showSection('satzungneu')">neu</a>
           <a onclick="showSection('landessatzung')">Landessatzung</a>
           <div class="dropdown-item dropdown">
             <a href="#">Bund</a>
@@ -522,6 +524,10 @@
             <iframe src="Satzungen/Satzung_Kreis.pdf" style="width: 100%; height: 800px; border: none;"></iframe>
     </section>
 
+    <section id="satzungneu">
+            <iframe src="Satzungneu.pdf" style="width: 100%; height: 800px; border: none;"></iframe>
+    </section>
+   
     <section id="landessatzung">
       <h2>Landessatzung</h2>
       <iframe src="Satzungen/Satzung_Land.pdf"></iframe>
